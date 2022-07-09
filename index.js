@@ -208,6 +208,7 @@ greet.style.fontFamily="monospace";
 greet.style.fontWeight="100%";
 greet.style.fontSize=devicewidth*0.3+"px";
 greet.style.textShadow="5px 5px 5px grey";
+greet.style.color="black";
 
 
 // hello greeting type writer animation
