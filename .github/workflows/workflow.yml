@@ -1,0 +1,61 @@
+name: Publish Obsidian Vault with Quartz
+
+on:
+  push:
+    branches:
+      - legacy
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout vault
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Clone Quartz
+        run: git clone -b v4 https://github.com/jackyzha0/quartz.git quartz
+
+      - name: Inject vault into Quartz content
+        run: |
+          # Clean default content
+          rm -rf quartz/content/*
+          
+          # Sync all vault content
+          rsync -av \
+            --exclude quartz \
+            --exclude .git \
+            --exclude .github \
+            --exclude .obsidian \
+            ./ quartz/content/
+          
+          # Copy custom config/layout to quartz root if they exist
+          [ -f quartz.config.ts ] && cp quartz.config.ts quartz/
+          [ -f quartz.layout.ts ] && cp quartz.layout.ts quartz/
+
+      - name: Install Quartz dependencies
+        working-directory: quartz
+        run: npm ci
+
+      - name: Build site
+        working-directory: quartz
+        run: npx quartz build
+
+      - name: Deploy to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: quartz/public
+          publish_branch: gh-pages
+          force_orphan: true
+
