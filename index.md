@@ -11,8 +11,7 @@ I believe that technology is more than a collection of tools; it is an interconn
 
 [Mail](mailto:myselfakashagarwal@gmail.com)
 [Linkedin](https://www.linkedin.com/in/myselfakashagarwal/)
-[Github](https://github.com/myselfakashagarwal)
+[Github](https://github.com/myselfakashagarwal) <br>
 [[Education]] 
 [[Experience]] 
-[[Technical]]
 [[Projects]]
