@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Akash Agarwal</title>
+      <link>https://myselfakashagarwal.github.io</link>
+      <description>Last 10 notes on Akash Agarwal</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Nvimc</title>
+    <link>https://myselfakashagarwal.github.io/Projects/Nvimc</link>
+    <guid>https://myselfakashagarwal.github.io/Projects/Nvimc</guid>
+    <description><![CDATA[ Timeline: 1/2024 – 3/2024 Concepts: Shell Scripting, Configuration Management, Containerization, Docker, Linux, Development Environment, System Administration Source Code: GitHub Classification: Utility About Nvimc is a containerized development utility that provisions an isolated Neovim-based devel... ]]></description>
+    <pubDate>Wed, 12 Aug 2026 23:30:52 GMT</pubDate>
+  </item><item>
+    <title>OrderLakeHouse</title>
+    <link>https://myselfakashagarwal.github.io/Projects/OrderLakeHouse</link>
+    <guid>https://myselfakashagarwal.github.io/Projects/OrderLakeHouse</guid>
+    <description><![CDATA[ Timeline: 4/2026 – 7/2026 Concepts: System Design, Distributed Systems, Event-Driven Architecture, Big Data, Data Engineering, Event Streaming, Apache Kafka, Hadoop HDFS, Spring Boot, Microservices, Message Queues, API Gateway, Multi-Tenant Architecture Source Code: GitHub Classification: SaaS Proto... ]]></description>
+    <pubDate>Wed, 12 Aug 2026 23:30:52 GMT</pubDate>
+  </item><item>
+    <title>Pweb</title>
+    <link>https://myselfakashagarwal.github.io/Projects/Pweb</link>
+    <guid>https://myselfakashagarwal.github.io/Projects/Pweb</guid>
+    <description><![CDATA[ Timeline: 3/2025 – 6/2025 Concepts: Software Delivery, Docker, Jenkins, CI/CD, Containerization, Automation, Shell Scripting Source Code: GitHub Classification: Localized Delivery Pipeline About Pweb is a localized software delivery pipeline integrated directly into the application codebase. ]]></description>
+    <pubDate>Wed, 12 Aug 2026 23:30:52 GMT</pubDate>
+  </item><item>
+    <title>Education</title>
+    <link>https://myselfakashagarwal.github.io/Education</link>
+    <guid>https://myselfakashagarwal.github.io/Education</guid>
+    <description><![CDATA[ Master of Computer Application (MCA) University: Chandigarh University, Mohali, Punjab Year: 2025 - 2027 Branch: Cloud Computing &amp; DevOps Location: Mohali, Punjab, India University Website: website Bachelor of Computer Application (BCA) University: Chandigarh University, Mohali, Punjab Year: 202... ]]></description>
+    <pubDate>Wed, 12 Aug 2026 23:30:52 GMT</pubDate>
+  </item><item>
+    <title>Experience</title>
+    <link>https://myselfakashagarwal.github.io/Experience</link>
+    <guid>https://myselfakashagarwal.github.io/Experience</guid>
+    <description><![CDATA[ Devops Intern Company: Milkbasket Year: 4/2024 - 5/2024 Location: Gurugram, Haryana IndiaAbout Milkbasket: url Responsibilities &amp; Work Access Control &amp; Identity Management AWS IAM Governance: Created and managed custom IAM roles, policies, and groups mapped to job functions, including cross ... ]]></description>
+    <pubDate>Wed, 12 Aug 2026 23:30:52 GMT</pubDate>
+  </item><item>
+    <title>Dstroman</title>
+    <link>https://myselfakashagarwal.github.io/Projects/Dstroman</link>
+    <guid>https://myselfakashagarwal.github.io/Projects/Dstroman</guid>
+    <description><![CDATA[ Timeline: 3/2025 – 6/2025 Concepts: Docker, CLI, TUI, Shell Scripting, Automation, Containerization, Linux Source Code: GitHub Classification: Developer Utility About Dstroman is a terminal-based Docker administration utility designed to simplify day-to-day container management through an interactiv... ]]></description>
+    <pubDate>Wed, 12 Aug 2026 23:30:52 GMT</pubDate>
+  </item><item>
+    <title>Gits</title>
+    <link>https://myselfakashagarwal.github.io/Projects/Gits</link>
+    <guid>https://myselfakashagarwal.github.io/Projects/Gits</guid>
+    <description><![CDATA[ Timeline: 10/2023 – 12/2023 Concepts: Shell Scripting, System Administration, Source Code Management, Automation, Configuration Management, Continuous Integration, Linux Source Code: GitHub Classification: Setup Automation Suite About Git Infrastructure Suite (Gits) is an infrastructure automation p... ]]></description>
+    <pubDate>Wed, 12 Aug 2026 23:30:52 GMT</pubDate>
+  </item><item>
+    <title>Monc</title>
+    <link>https://myselfakashagarwal.github.io/Projects/Monc</link>
+    <guid>https://myselfakashagarwal.github.io/Projects/Monc</guid>
+    <description><![CDATA[ Timeline: 3/2024 – 1/2026 Concepts: Reliability Engineering, Observability, Monitoring, Metrics Collection, Time-Series Databases, Visualization, Prometheus, Grafana, Exporters, Docker, Linux, Shell Scripting Source Code: GitHub Classification: Observability Framework About Monc is a modular observa... ]]></description>
+    <pubDate>Wed, 12 Aug 2026 23:30:52 GMT</pubDate>
+  </item><item>
+    <title>Skills</title>
+    <link>https://myselfakashagarwal.github.io/Skills</link>
+    <guid>https://myselfakashagarwal.github.io/Skills</guid>
+    <description><![CDATA[  CategorySkillsReferencesSystem AdministrationLinux, Shell ScriptingExperience, Nvimc, Dstroman, GitsVersion Control &amp; CI/CDGit, Jenkins, GitHub ActionsExperience, Pweb, GitsCloud ComputingAWS IAM, EC2, VPC, S3, RDS, ECR, ECS, EKSExperienceContainerization &amp; OrchestrationDocker, KubernetesEx... ]]></description>
+    <pubDate>Wed, 12 Aug 2026 23:30:52 GMT</pubDate>
+  </item><item>
+    <title>About</title>
+    <link>https://myselfakashagarwal.github.io/</link>
+    <guid>https://myselfakashagarwal.github.io/</guid>
+    <description><![CDATA[ I am an intuitive software engineer who focuses on operational efficiency and takes a systematic approach to designing and solving complex problems through generative thinking. ]]></description>
+    <pubDate>Wed, 12 Aug 2026 23:30:52 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
